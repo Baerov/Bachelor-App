@@ -1,0 +1,10 @@
+.idea/
+/backend/runtime
+/vendor
+/backend/import
+main-local*
+/tests
+/frontend/tests
+/backend/tests
+/common
+components*

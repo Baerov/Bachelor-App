@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine on
+
+<IfModule mod_rewrite.c>
+    RewriteCond %{REQUEST_URI} !^/(frontend|backend)/web/(assets|css|img)/
+    RewriteRule .* backend/web/index.php [L]
+</IfModule>
